@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SwitchPages</string>
+    <string name="send">SEND</string>
+    <string name="v5">Lollipop</string>
+    <string name="v6">Marshmallow</string>
+    <string name="v7">Nougat</string>
+    <string name="v8">Oreo</string>
+
+    <string-array name="spin_item">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>
+
+
