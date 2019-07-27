@@ -344,45 +344,46 @@ public class VersionActivity extends AppCompatActivity {
                     layout2.setVisibility(View.GONE);
                     break;
                 }else {
-                    label.setText("2 Select what does it contain in flag");
-                    image_view.setImageResource(R.drawable.image1);
-                    layout1.setVisibility(View.GONE);
-                    layout2.setVisibility(View.VISIBLE);
-                    checkbox1.setText("Maple");
-                    checkbox2.setText("Egg");
-                    checkbox3.setText("Leaf");
-                    checkbox4.setText("Cow");
-                }
-                break;
-            case 3://No.3 question
-                label.setText("3 Select the color of Pentagram in this flag");
-                image_view.setImageResource(R.drawable.image3);
-                radioButton1.setText("Black");
-                radioButton2.setText("Red");
-                radioButton3.setText("Yellow");
-                radioButton4.setText("Blue");
-                layout1.setVisibility(View.VISIBLE);
-                layout2.setVisibility(View.GONE);
+                        label.setText("1 简单的逻辑问题 一加一等于");
+                        image_view.setImageResource(R.drawable.image1);
+                        radioButton1.setText("二");
+                        radioButton2.setText("三");
+                        radioButton3.setText("四");
+                        radioButton4.setText("五");
+                        layout1.setVisibility(View.VISIBLE);
+                        layout2.setVisibility(View.GONE);
+                        break;
+
                 break;
             case 4://No.4 question
-                label.setText("4 Select the background color that in this flag");
-                image_view.setImageResource(R.drawable.image3);
-                radioButton1.setText("Black");
-                radioButton2.setText("Yellow");
-                radioButton3.setText("Blue");
-                radioButton4.setText("Red");
+                label.setText("4 请选择正确的一项");
+                image_view.setImageResource(R.drawable.image4);
+                radioButton1.setText("任何时候都要停车");
+                radioButton2.setText("限制路牌");
+                radioButton3.setText("修路的标识");
+                radioButton4.setText("慢行车辆在前");
                 layout1.setVisibility(View.VISIBLE);
                 layout2.setVisibility(View.GONE);
                 break;
-            case 5://No.5 question
-                label.setText("5 Select the countries that have these flags");
-                image_view.setImageResource(R.drawable.image5);
-                layout1.setVisibility(View.GONE);
-                layout2.setVisibility(View.VISIBLE);
-                checkbox1.setText("US");
-                checkbox2.setText("China");
-                checkbox3.setText("South Africa");
-                checkbox4.setText("United Kingdom");
+            case 5://No.4 question
+                label.setText("1 简单的逻辑问题 一加一等于");
+                image_view.setImageResource(R.drawable.image1);
+                radioButton1.setText("二");
+                radioButton2.setText("三");
+                radioButton3.setText("四");
+                radioButton4.setText("五");
+                layout1.setVisibility(View.VISIBLE);
+                layout2.setVisibility(View.GONE);
+            case 6://No.4 question
+                label.setText("4 请选择正确的一项");
+                image_view.setImageResource(R.drawable.image4);
+                radioButton1.setText("任何时候都要停车");
+                radioButton2.setText("限制路牌");
+                radioButton3.setText("修路的标识");
+                radioButton4.setText("慢行车辆在前");
+                layout1.setVisibility(View.VISIBLE);
+                layout2.setVisibility(View.GONE);
+                break;
                 break;
             case 6://result page
                 layout1.setVisibility(View.GONE);
